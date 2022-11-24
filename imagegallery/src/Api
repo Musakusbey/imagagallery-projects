@@ -1,0 +1,6 @@
+<div class="hover-overlay-container">
+    <img class="overlay-image" src="" />
+    <div class="overlay-btn-container">
+    <a href="#" class="overlay-btn">Sepete Ekle</a>
+    </div>
+    </div>

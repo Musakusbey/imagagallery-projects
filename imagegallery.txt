@@ -1,0 +1,27 @@
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CSS
+1-) <center> ... </center> içinde bulunduğu şeyi, sayfanın ortasına getirir. 
+
+2-) background-image: url("Resim yolu"); //arkaplan resmi ekleme  //Resim yolunu bulmak için resmin üzerine gel sağa tıkla ve yol olarak kopyala de.
+
+3-) Resmin üzerine gelince yazı veya buton çıkması -> Link : https://www.mehsatek.com/resmin-uzerine-gelince-buton-cikmasi/  	 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Js
+1-) *** İnputtan gelen veriyi sürekli görmemiz gerekiyor. Her veri girdiğimizde ya da sildiğimizde çalışmasını istediğimiz method'u yazmamız lazım. ***
+  -> onChange={(e)=>console.log(e.target.value)} //gelen e değerini consola yazdık. 
+
+    
+2-) Javascript Events(Olaylar)     
+onSubmit: Form submit olduğu anda ne yapacağını söyleyeceğimiz event'tir.
+onChange: Form'un içindeki form elementlerinin(input) value'su her değiştiğinde bu değişen value'yu bizim her defasında elde etmemize olanak sağlayan eventtir.
+
+
+3-)
+Preventdefault kavramı ilgili elementin tarayıcı tarafından o an yaptığı varsayılan işlemi engellemeye yarar. Örneğin a elementine tıklandığı zaman varsayılan davranışı
+ilgili url adresine yönlenmektir bu davranışı engellemek için preventdefault kullanırız.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+React js
+
+1-)  npm i axios //terminale bunu yaz(karıştırma)
